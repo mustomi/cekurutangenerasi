@@ -59,7 +59,6 @@ const botStart = () => {
     if (init === 1) {
        botDelay({nama : answer.value})[init]
     } else if (init === 2) {
-       button.textContent = "Selanjutnya"
        botDelay({tahun : answer.value})[init]
     } else if (init === 3) {
         button.textContent = "Selesai"
